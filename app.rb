@@ -3,6 +3,7 @@ require './lib/bookmarks'
 
 class BookmarkManager < Sinatra::Base
   enable :sessions
+
   get '/bookmarks' do
     @bookmarks = Bookmark.all
     erb :'bookmarks/index'
