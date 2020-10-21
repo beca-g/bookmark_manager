@@ -14,7 +14,7 @@ I’d like to see a list of bookmarks.
 | bookmarks | list, show |
  
 
-![diagram for first user story](https://i.imgur.com/kccRw38.png)
+![diagram for first user story](https://i.imgur.com/I622wp4.png)
 
 ## How to use
 
