@@ -1,6 +1,11 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/rebekahgalliano/Projects/Makers/WK4/bookmark_manager/spec/bookmark_create_spec.rb": {
+        "lines": [
+          1
+        ]
+      },
       "/Users/rebekahgalliano/Projects/Makers/WK4/bookmark_manager/spec/bookmarks_spec.rb": {
         "lines": [
           1,
@@ -16,7 +21,7 @@
           null,
           1,
           null,
-          0,
+          1,
           0,
           0,
           null,
@@ -39,6 +44,7 @@
       },
       "/Users/rebekahgalliano/Projects/Makers/WK4/bookmark_manager/spec/features/add_new_bookmark_spec.rb": {
         "lines": [
+          1,
           1,
           1,
           1,
@@ -73,19 +79,19 @@
           1,
           1,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
-          1,
+          0,
           null,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1603378193
+    "timestamp": 1603381906
   }
 }
