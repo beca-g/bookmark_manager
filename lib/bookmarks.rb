@@ -4,9 +4,9 @@ class Bookmark
   attr_reader :id, :url, :title
 
   def initialize(id:, url:, title:)
-    @id = id:
-    @url = url:
-    @title = title:
+    @id = id
+    @url = url
+    @title = title
   end
 
   def self.all
@@ -17,20 +17,20 @@ class Bookmark
     end 
 
       result = connection.exec('SELECT * FROM bookmarks;')
-      result.map { |bookmark| 
+      result.map do |bookmark| 
         Bookmark.new(id: bookmark['id'], url: bookmark['url'], title: bookmark['title'])
-      }
+      end
       # each row equal to a new instance of the Bookmark class
   end
 
-  def self.create(url, title)
+  def self.create(url:, title:)
     if ENV['ENVIRONMENT'] == 'test'
       connection = PG.connect(dbname: 'bookmark_manager_test')
     else
       connection = PG.connect(dbname: 'bookmark_manager')
     end 
 
-    connection.exec("INSERT INTO bookmarks (url, title) VALUES ('#{url}', '#{title}');")
+    result = connection.exec("INSERT INTO bookmarks (url, title) VALUES ('#{url}', '#{title}') RETURNING id, title, url;")
+    Bookmark.new(id: result[0]['id'], title: result[0]['title'], url: result[0]['url'])
   end
-
 end
