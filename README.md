@@ -48,7 +48,7 @@ To set up the bookmark_manager_test database follow the below steps:
 rackup -p 4567
 ```
 
-To view bookmarks navigate to `localhost:4567/bookmarks`.
+To view bookmarks navigate to http://localhost:4567/bookmarks
 
 
 ### To  run tests:
