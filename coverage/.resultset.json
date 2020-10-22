@@ -50,6 +50,21 @@
           null
         ]
       },
+      "/Users/arabellaknowles/Projects/bookmark-manager-directories/bookmark_manager/spec/features/displays_titles_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/arabellaknowles/Projects/bookmark-manager-directories/bookmark_manager/spec/features/view_bookmarks_spec.rb": {
         "lines": [
           1,
@@ -57,12 +72,6 @@
           null,
           1,
           1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
           1,
           1,
           1,
@@ -77,6 +86,6 @@
         ]
       }
     },
-    "timestamp": 1603375970
+    "timestamp": 1603376613
   }
 }
