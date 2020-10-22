@@ -16,10 +16,10 @@ class Bookmark
       connection = PG.connect(dbname: 'bookmark_manager')
     end 
 
-      result = connection.exec('SELECT * FROM bookmarks;')
-      result.map do |bookmark| 
-        Bookmark.new(id: bookmark['id'], url: bookmark['url'], title: bookmark['title'])
-      end
+    result = connection.exec('SELECT * FROM bookmarks;')
+    result.map do |bookmark| 
+      Bookmark.new(id: bookmark['id'], url: bookmark['url'], title: bookmark['title'])
+    end
       # each row equal to a new instance of the Bookmark class
   end
 

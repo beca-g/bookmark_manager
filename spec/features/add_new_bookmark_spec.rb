@@ -5,6 +5,6 @@ feature 'Adding a new bookmark' do
     fill_in 'title', with: 'Netflix'
     click_button('Submit')
 
-    expect(page).to have_content("Netflix", href: "http://netflix.com")
+    expect(page).to have_link("Netflix", href: "http://netflix.com")
   end
 end
