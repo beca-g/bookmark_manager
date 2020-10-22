@@ -50,11 +50,8 @@ rackup -p 4567
 
 To view bookmarks navigate to `localhost:4567/bookmarks`.
 
-<<<<<<< HEAD
-### Ro  run tests:
-=======
+
 ### To  run tests:
->>>>>>> 2735fbbe68efa989ed239623aabd9909a3a345f2
 
 ```
 rspec
@@ -64,8 +61,5 @@ rspec
 
 ```
 rubocop
-<<<<<<< HEAD
 ```
-=======
-```
->>>>>>> 2735fbbe68efa989ed239623aabd9909a3a345f2
+
