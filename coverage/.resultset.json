@@ -4,24 +4,6 @@
       "/Users/rebekahgalliano/Projects/Makers/WK4/bookmark_manager/spec/bookmarks_spec.rb": {
         "lines": [
           1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          null,
-          1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
-          1,
           1,
           null,
           1,
@@ -29,7 +11,40 @@
           1,
           1,
           null,
+          1,
+          1,
+          1,
           null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rebekahgalliano/Projects/Makers/WK4/bookmark_manager/spec/database_helper.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
           null
         ]
       },
@@ -83,6 +98,6 @@
         ]
       }
     },
-    "timestamp": 1603384904
+    "timestamp": 1603392129
   }
 }
